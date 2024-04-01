@@ -1,0 +1,19 @@
+pandas
+numpy
+opencv-contrib-python
+ipykernel
+jupyter
+ipywidgets
+
+matplotlib
+# tqdm
+python-dotenv
+# mtcnn
+tensorflow
+# face-recognition
+# scikit-image
+dlib
+deepface
+tf-keras
+mediapipe
+ultralytics
