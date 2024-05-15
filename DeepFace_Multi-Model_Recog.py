@@ -1,4 +1,4 @@
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import sys
 import shutil
 import os
@@ -75,11 +75,11 @@ class Face_Detector:
                     print(f" | confidence : {i['confidence']}")
 
             for _, i in enumerate(detected_aligned_face):
-                # if i["confidence"] >= 0.75:
-                plt.imshow(i["face"])
-                plt.show()
-                # counter += 1
-                # break
+                if i["confidence"] >= 0.75:
+                    # plt.imshow(i["face"])
+                    # plt.show()
+                    counter += 1
+                    break
 
             if counter >= 3:
                 self.move_image(image_path)

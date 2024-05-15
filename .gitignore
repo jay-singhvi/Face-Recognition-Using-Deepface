@@ -366,7 +366,5 @@ FodyWeavers.xsd
 .venv
 .env
 __pycache__
-*.jpg
-*.jpeg
-*.png
 .mypy_cache
+.deepface
